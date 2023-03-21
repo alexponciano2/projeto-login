@@ -6,8 +6,8 @@
     }
 
     section#login{
-        width: 90vw;
-        height: 70vh;
+        width: 80vw;
+        height: 280px;
     }
 
     section#login > div#imagem {
@@ -23,6 +23,8 @@
 
 }
 
+/*------------------------------------------------------------------------------------*/
+
 @media screen and (min-width: 1025px){
     main{
         background-image: linear-gradient(to top, #49a09d, #5f2c8d);
@@ -30,8 +32,7 @@
 
     section#login {
         width: 990px;
-        height: 80vh;
-
+        height: 350px;
     }
     section#login > div#imagem{
         float: right;
@@ -43,13 +44,13 @@
         width: 50%;
     }
 
-    div#formulario > p {
-        font-size: 1.2em;
-    }
-
     div#formulario > h1 {
         font-size: 2em;
+        text-align: center;
     }
 
-
+    div#formulario > p {
+        font-size: 1em;
+        margin: 20px 0px;
+    }
 }
