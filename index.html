@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
+
 <body>
     <main>
         <section id="login">
@@ -15,12 +18,23 @@
             </div>
             <div id="formulario">
                 <h1>Login</h1>
-                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu
+                    ambiente.</p>
                 <form action="login.js" method="post">
-                    
+                    <p><label for="">Nome:</label>
+                        <input type="text" name="nome" id="inome" autocomplete="name" required>
+                    </p>
+                    <p><label for="">Senha:</label>
+                        <input type="password" name="senha" id="isenha" min="8" required >
+                    </p>
+                    <p>
+                        <input type="submit" value="Entrar">
+                        <input type="reset" value="Limpar">
+                    </p>
                 </form>
             </div>
         </section>
     </main>
 </body>
+
 </html>
